@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="mtalocal://jquery-2.1.4.js"> </script>
+<script src="mtalocal://mtajax.js"> </script>
+<script type="text/javascript"> 
+$(function()
+{
+mtajax.makeRequest("PlayerMoneyRequest", "sbx320").done(function(money)
+{
+	if(money === false)
+		console.log("Ungueltiger Spieler")
+	else 
+		console.log("Spieler hat $" + money)
+});
+});
+</script>
+</head>
+<body>
+
+</body>
+
+</html>

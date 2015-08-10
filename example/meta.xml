@@ -1,0 +1,7 @@
+<meta>
+<script src="mtajax.lua" type="client"/>
+<file src="mtajax.js" type="client"/>
+<file src="jquery-2.1.4.js" type="client"/>
+<file src="test.html" type="client"/>
+<script src="test.lua" type="client"/>
+</meta>
