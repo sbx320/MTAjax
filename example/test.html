@@ -8,9 +8,9 @@ $(function()
 mtajax.makeRequest("PlayerMoneyRequest", "sbx320").done(function(money)
 {
 	if(money === false)
-		console.log("Ungueltiger Spieler")
+		console.log("Invalid Player")
 	else 
-		console.log("Spieler hat $" + money)
+		console.log("Player has $" + money)
 });
 });
 </script>
