@@ -2,6 +2,10 @@ MTAjax
 ==========
 An Ajax-like interface for requesting data from the browser for the MTA Client
 
+### Note:
+
+From MTA 1.5.0 r7439 Ajax support has been added to MTA directly. This means that this resource is no longer neccessary for Ajax communication. Refer to https://buildinfo.mtasa.com/?Revision=7439&Branch=1.5.0 or the Wiki for more information.
+
 ### Installation
 
 - Copy and add JQuery to your Resource and HTML file
